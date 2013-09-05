@@ -14,11 +14,13 @@ Copy all of this repositories files to your server.
 
 Setup
 -----
-1. Open ´includes/html/head.htm´ and enter a sensible title for your new website and put it in the ´<title>´ tag.
-2. Open ´includes/html/foot.htm´ with your favorite text editor and replace my details and profile links with yours. Delete everything you may not want to publish.
-3. Open ´images.txt´, enter the IDs of the photos you want to publish, each in a separate line.
-4. Launch your favorite web browser and navigate to `http://yourserver.com/flickr-gallery/generator.php`. This will parse your ´images.txt´ and build your website.
+1. Open `includes/html/head.htm` and enter a sensible title for your new website and put it in the ´<title>´ tag.
+2. Open `includes/html/foot.htm` with your favorite text editor and replace my details and profile links with yours. Delete everything you may not want to publish.
+3. Open `images.txt`, enter the IDs of the photos you want to publish, each in a separate line.
+4. Launch your favorite web browser and navigate to `http://yourserver.com/flickr-gallery/generator.php`. This will parse your `images.txt` and build your website.
 5. Done! You should be able to see your site at `http://yourserver.com/flickr-gallery`
+
+Repeat steps 3. and 4. whenever you add or remove any images to your `images.txt`.
 
 Demo
 ----
