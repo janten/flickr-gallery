@@ -6,7 +6,7 @@ A simple way to create an elegant gallery of your best photos hosted on Flickr.
 Prerequisites
 -------------
 - A webserver that is capable of executing PHP scripts
-- A flickr account
+- A Flickr account
 
 Installation
 ------------
@@ -25,3 +25,7 @@ Repeat steps 3. and 4. whenever you add or remove any images to your `images.txt
 Demo
 ----
 I am using a slightly modified version of this gallery on my own website at http://jan-gerd.com.
+
+Credits
+-------
+This project uses the [socialico font](http://fontfabric.com/social-media-icons-pack/) by Fontfabric and (Arvo)[http://files.korkork.com/index.php?/fonts/arvo/] by Anton Koovit.
