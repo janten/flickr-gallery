@@ -6,6 +6,13 @@ $images = explode("\n", $imageList);
 $output = "";
 $flickr_api_key = "5737c7c9f5f8369815d59b6c1caffb65";
 
+$handle = fopen("posts.htm", "w");
+if ($handle === false) {
+	echo "Could not open posts.htm for writing. Please check the rights on this file.";
+	exit;
+}
+fclose($handle);
+
 foreach ($images as $id) {
 	$url = "http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=$flickr_api_key&photo_id=$id";
 	$xml = simplexml_load_file($url);
