@@ -1,5 +1,5 @@
-flickr-gallery
-==============
+PHP Gallery for Flickr
+======================
 
 A simple way to create an elegant gallery of your best photos hosted on Flickr.
 
@@ -14,7 +14,7 @@ Copy all of this repositories files to your server.
 
 Setup
 -----
-1. Open `includes/html/head.htm` and enter a sensible title for your new website and put it in the ´<title>´ tag.
+1. Open `includes/html/head.htm` and enter a sensible title for your new website and put it in the `<title>` tag.
 2. Open `includes/html/foot.htm` with your favorite text editor and replace my details and profile links with yours. Delete everything you may not want to publish.
 3. Open `images.txt`, enter the IDs of the photos you want to publish, each in a separate line.
 4. Launch your favorite web browser and navigate to `http://yourserver.com/flickr-gallery/generator.php`. This will parse your `images.txt` and build your website.
@@ -28,4 +28,4 @@ I am using a slightly modified version of this gallery on my own website at http
 
 Credits
 -------
-This project uses the [socialico font](http://fontfabric.com/social-media-icons-pack/) by Fontfabric and (Arvo)[http://files.korkork.com/index.php?/fonts/arvo/] by Anton Koovit.
+This product uses the Flickr API but is not endorsed or certified by Flickr. It uses the [socialico font](http://fontfabric.com/social-media-icons-pack/) by Fontfabric and [Arvo](http://files.korkork.com/index.php?/fonts/arvo/) by Anton Koovit.
