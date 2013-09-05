@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo|Noticia+Text:400,400italic,700&subset=latin,latin-ext);
+
+@font-face {
+    font-family: 'socialico';
+    src: url('../fonts/socialico-webfont.ttf') format('truetype');
+}
+
+body {
+	background: #eee;
+	text-align: left;
+	font-family: "Noticia Text", "Georgia", serif;
+	text-rendering: optimizeLegibility;
+	padding-top: 3em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#about {
+	display: block;
+	text-align: center;
+	color: #666;
+	text-shadow: 0px 1px 0px #fff;
+	margin-top: -2em;
+	margin-bottom: 2em;
+	text-decoration: none;
+}
+
+#about a {
+	color: #666;
+	text-decoration: none;
+}
+
+#about a:hover,
+#about a:focus {
+	text-decoration: underline;
+}
+
+#container {
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	margin-left: -400px;
+}
+
+article, img {
+	margin-top: -7px;
+	margin-bottom: 8em;
+	background-clip: padding-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	overflow: hidden;
+	clear: both;
+	display: block;
+}
+
+article {
+	background: #fff;
+	padding: 5em;
+	position: relative;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	box-sizing: border-box;
+	z-index: 100;
+}
+
+article p {
+	font-size: 13pt;
+	line-height: 150%;
+}
+
+h1, header {
+	position: relative;
+	font-family: "Arvo", serif;
+	font-weight: 400;
+	font-size: x-large;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	z-index: 1000;
+	display: inline;
+}
+
+h1 {
+	left: 25px;
+}
+
+header {
+	color: #bbb;
+	left: 20px;
+}
+
+article .fullrow {
+	-webkit-column-span: all;
+	-moz-column-span: all;
+	column-span: all;
+}
+
+article img {
+	margin-left: -20px;
+	margin-top: -20px;
+	border-radius: 3px;
+	margin-bottom: -16px;
+}
+
+#about a.icon {
+	font-family: "socialico";
+	font-size: 26pt;
+	position: relative;
+	top: .5em;
+	margin-bottom: 3em;
+}
+
+#about a.icon:hover,
+#about a.icon:focus {
+	text-decoration: none;
+}
+
+#about a[href*="facebook"]:hover {
+	color: rgb(58, 89, 152);
+}
+
+#about a[href*="twitter"]:hover {
+	color: rgb(30, 174, 234);
+}
+
+#about a[href*="last.fm"]:hover {
+	color: rgb(219, 18, 23);
+}
+
+#about a[href*="flickr.com"]:hover {
+	color: rgb(251, 32, 139);
+}
+
+#about a[href*="amazon"]:hover {
+	color: rgb(253, 161, 49);
+}
+
+#about a[href*="plus.google"]:hover {
+	color: rgb(208, 69, 48);
+}
