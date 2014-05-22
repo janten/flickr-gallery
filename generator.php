@@ -14,6 +14,10 @@ if ($handle === false) {
 fclose($handle);
 
 foreach ($images as $id) {
+	if ($id == "") {
+		continue;
+	}
+	
 	$url = "http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=$flickr_api_key&photo_id=$id";
 	$xml = simplexml_load_file($url);
 	$date = $xml->photo->dates->attributes()->taken;
