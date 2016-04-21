@@ -18,12 +18,12 @@ foreach ($images as $id) {
 		continue;
 	}
 	
-	$url = "http://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=$flickr_api_key&photo_id=$id";
+	$url = "https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=$flickr_api_key&photo_id=$id";
 	$xml = simplexml_load_file($url);
 	$date = $xml->photo->dates->attributes()->taken;
 	$dateString = substr($date, 8, 2).'.'.substr($date, 5, 2).'.'.substr($date, 0, 4);
 
-	$url = "http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=$flickr_api_key&photo_id=$id";
+	$url = "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=$flickr_api_key&photo_id=$id";
 	$sxml = simplexml_load_file($url);
 	$location = $altLocation = "";
 	$theSize = 0;
